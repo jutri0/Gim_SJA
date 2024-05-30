@@ -1,0 +1,145 @@
+﻿@{
+}
+
+        <label class="form-label">Alumno</label>
+        <select class="form-control" id="selectAlumnos">
+        </select>
+        <label class="form-label">Fecha</label>
+        <input class="form-control" type="date" name="profile-email" id="Fecha">
+        <label class="form-label">Equipo</label>
+        <select class="form-control" id="selectEquipos">
+        </select>
+        <label class="form-label">Cantidad</label>
+        <input class="form-control" type="text" name="profile-email" id="Cantidad" placeholder="Cantidad">
+        <label class="form-label">Observaciones</label>
+        <input class="form-control" type="text" name="profile-email" id="Observaciones" placeholder="Observaciones">
+
+        <div class="d-flex">
+            <button type="button" class="form-control ms-2" onclick="GuardarPrestamo()">
+                Guardar
+            </button>
+        </div>
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            try {
+                $.ajax({
+                    url: '@Url.Action("GetAlumnos", "Prestamo")',
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log(data);
+                        if (data.message === "Alumnos encontrados") {
+                            var selectAlumnos = $('#selectAlumnos');
+                            selectAlumnos.empty();
+                            selectAlumnos.append($('<option value="">Seleccione un Alumno</option>'));
+
+                            // Itera sobre la matriz de objetos JSON y agrega opciones al select
+                            $.each(data.dataJson, function ($i, $val) {
+                                selectAlumnos.append($('<option value="' + $val.idAlumnoPk + '">' + $val.nombres + '</option>'));
+                            });
+                        } else {
+                            swal.fire({
+                                title: "Alerta",
+                                text: data.message,
+                                icon: "error"
+                            });
+                        }
+                    },
+                    error: function () {
+                        swal.fire({
+                            title: "Error",
+                            text: "Error al cargar la lista de clientes.",
+                            icon: "error"
+                        });
+                    }
+                });
+            } catch (error) {
+                console.log('Error en la solicitud AJAX:', error);
+            }
+
+            try {
+                $.ajax({
+                    url: '@Url.Action("GetEquipos", "Prestamo")',
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log(data);
+                        if (data.message === "Equipos encontrados") {
+                            var selectEquipos = $('#selectEquipos');
+                            selectEquipos.empty();
+                            selectEquipos.append($('<option value="">Seleccione un Equipo</option>'));
+
+                            // Itera sobre la matriz de objetos JSON y agrega opciones al select
+                            $.each(data.dataJson, function ($i, $val) {
+                                selectEquipos.append($('<option value="' + $val.idEquipoPk + '">' + $val.nombre + '</option>'));
+                            });
+                        } else {
+                            swal.fire({
+                                title: "Alerta",
+                                text: data.message,
+                                icon: "error"
+                            });
+                        }
+                    },
+                    error: function () {
+                        swal.fire({
+                            title: "Error",
+                            text: "Error al cargar la lista de clientes.",
+                            icon: "error"
+                        });
+                    }
+                });
+            } catch (error) {
+                console.log('Error en la solicitud AJAX:', error);
+            }
+        });
+
+        function GuardarPrestamo() {
+            var alumno = $('#selectAlumnos').val();
+            var fecha = $('#Fecha').val();
+            var equipo = $('#selectEquipos').val();
+            var cantidad = $('#Cantidad').val();
+            var observaciones = $('#Observaciones').val();
+
+            var data = {
+                AlumnoPrestamo: alumno,
+                FechaPrestamo: fecha,
+                Equipo: equipo,
+                CantidadEquipo: cantidad,
+                Observaciones: observaciones
+            };
+
+            $.ajax({
+                url: '@Url.Action("UpdatePrestamo", "Prestamo")',
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    if (data.message === "Se guardó con éxito") {
+                        swal.fire({
+                            title: "Success",
+                            text: data.message,
+                            icon: "success"
+                        });
+                    } else {
+                        swal.fire({
+                            title: "Alerta",
+                            text: data.message,
+                            icon: "error"
+                        });
+                    }
+                },
+                error: function () {
+                    swal.fire({
+                        title: "Error",
+                        text: "Error al cargar la lista de clientes.",
+                        icon: "error"
+                    });
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="Tooplate">
+
+    <title>Mini Finance Dashboard Template</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/apexcharts.css" rel="stylesheet">
+
+    <link href="css/tooplate-mini-finance.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <main class="col-md-12 col-lg-12 ">
+                <div class="title-group mb-3">
+                    <h1 class="h2 mb-0">Prestamos</h1>
+                </div>
+
+                <div class="d-flex">
+
+                    <a class="navbar-brand" href="@Url.Action("Index", "Prestamo")">
+                        Ingresar Nuevo Prestamo
+                    </a>
+                </div>
+
+                <div class="row my-4">
+                        <div class="custom-block custom-block-exchange">
+                            <h5 class="mb-4">Tabla de Prestamos</h5>
+
+                            <table class="table table-bordered" id="prestamosTable">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Alumno Prestamo</th>
+                                        <th>Fecha Prestamo</th>
+                                        <th>Equipo</th>
+                                        <th>Cantidad Equipo</th>
+                                        <th>Observaciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                </div>
+           </main>
+    </div>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: '@Url.Action("GetPrestamos", "Home")',
+                type: 'POST',
+                dataType: 'json',
+                data: {}, // Puedes enviar datos adicionales aquí si es necesario
+                success: function (data) {
+                    var tbody = $('#prestamosTable tbody');
+                    tbody.empty(); // Limpia cualquier fila existente
+
+                    $.each(data, function (index, prestamo) {
+                        var row = '<tr>' +
+                            '<td>' + prestamo.idPrestamoPk + '</td>' +
+                            '<td>' + prestamo.alumnoPrestamo + '</td>' +
+                            '<td>' + prestamo.fechaPrestamo + '</td>' +
+                            '<td>' + prestamo.equipo + '</td>' +
+                            '<td>' + prestamo.cantidadEquipo + '</td>' +
+                            '<td>' + prestamo.observaciones + '</td>' +
+                            '</tr>';
+                        tbody.append(row);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error al obtener los datos: ", error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

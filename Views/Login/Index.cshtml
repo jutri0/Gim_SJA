@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<link rel="shortcut icon" href="~/img/favicon.ico" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/login.css" />
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="~/img/Logo-SJA.png" id="icon" alt="User Icon" style="padding:12px" />
+        </div>
+
+        <!-- Login Form -->
+        <form asp-antiforgery="false">
+            <input type="text" id="txtusu" class="fadeIn second" name="login" placeholder="Usuario">
+            <input type="password" id="txtpass" class="fadeIn third" name="login" placeholder="Contraseña">
+            <input type="button" class="fadeIn fourth" onclick="Enviar()" value="Iniciar Sesión">
+        </form>
+
+
+    </div>
+</div>
+
+<script src="~/js/Bootstrap4.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/generic.js"></script>
+<script src="~/js/sweetalert.js"></script>
+
+<script>
+    function Enviar()
+    {
+        var user = document.getElementById("txtusu").value;
+        var pass = document.getElementById("txtpass").value;
+        var loginUrl = '@Url.Action("login", "Login")';
+        var url = loginUrl + "?user=" + user + "&pass=" + pass;
+
+        $.get(url, function (data) {
+        //$.get("/SimuladorBDB/Login/login/?user=" + user + "&pass=" + pass, function (data) {
+            if(data == ""){
+                error("Contraseña o usuario incorrecto");
+            }else{
+                correcto("Bienvenido");
+                //document.location.href = "/SimuladorBDB/Landing";
+                document.location.href = '@Url.Action("Index","Home")';
+            }
+        })
+    }
+</script>

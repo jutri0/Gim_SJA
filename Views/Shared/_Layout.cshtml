@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GymAJT</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GymAJT.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/apexcharts.css" rel="stylesheet">
+
+    <link href="css/tooplate-mini-finance.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar sticky-top flex-md-nowrap">
+        <div class="col-md-3 col-lg-3 me-0 px-3 fs-6">
+            <a class="navbar-brand" href="index.html">
+                Gym SJA
+            </a>
+        </div>
+
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-nav me-lg-2">
+            <div class="nav-item text-nowrap d-flex align-items-center">
+
+
+                <div class="dropdown px-3">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid" alt="">
+                    </a>
+                    <ul class="dropdown-menu bg-white shadow">
+                        <li>
+                            <div class="dropdown-menu-profile-thumb d-flex">
+                                <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid me-3" alt="">
+
+                                <div class="d-flex flex-column">
+                                    <small>Thomas</small>
+                                    <a href="#">thomas@site.com</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="profile.html">
+                                <i class="bi-person me-2"></i>
+                                Perfil
+                            </a>
+                        </li>
+
+                        <li class="border-top mt-3 pt-2 mx-4">
+                            <a class="dropdown-item ms-0 me-0" href="#">
+                                <i class="bi-box-arrow-left me-2"></i>
+                                Cerrar Sesion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-1 col-lg-1 d-md-block sidebar collapse">
+                <div class="position-sticky py-4 px-3 sidebar-sticky">
+                    <ul class="nav flex-column h-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                Prestamos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="wallet.html">
+                                Devoluciones
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">
+                                Alumnos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="setting.html">
+                                Usuarios
+                            </a>
+                        </li>
+
+                        <li class="nav-item border-top mt-auto pt-2">
+                            <a class="nav-link" href="#">
+                                Cerrar Sesion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - GymAJT - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Bootstrap4.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Jqueryui.js"></script>
+    <script src="~/js/decimal.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script src="js/custom.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
