@@ -1,0 +1,72 @@
+@{
+}
+
+<div class="col-md-10 col-lg-10">
+    <label class="form-label">Nombre del Equipo</label>
+    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre del Equipo">
+    <label class="form-label">Cantidad</label>
+    <input class="form-control" type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+    <label class="form-label">Cantidad Máxima</label>
+    <input class="form-control" type="number" name="cMax" id="cMax" placeholder="Cantidad Máxima">
+    <label class="form-label">Observaciones</label>
+    <input class="form-control" type="text" name="observaciones" id="observaciones" placeholder="Observaciones">
+    <label class="form-label">Foto</label>
+    <input type="file" id="foto" name="foto" class="form-control" />
+    <br>
+    <div class="d-flex">
+        <button type="button" class="form-control ms-2" onclick="GuardarEquipo()">
+            Guardar
+        </button>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function GuardarEquipo() {
+            var nombre = $('#nombre').val();
+            var cantidad = $('#cantidad').val();
+            var cantidadMax = $('#cMax').val();
+            var observaciones = $('#observaciones').val();
+            var foto = $('#foto').val();
+
+            var data = {
+                Nombre: nombre,
+                Cantidad: cantidad,
+                CantidadMax: cantidadMax,
+                Observaciones: observaciones,
+                FotoEquipo: foto
+            };
+
+            $.ajax({
+                url: '@Url.Action("UpdateEquipo", "Equipo")',
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    if (data.message === "Se guardó con éxito") {
+                        swal.fire({
+                            title: "Success",
+                            text: data.message,
+                            icon: "success"
+                        });
+                    } else {
+                        swal.fire({
+                            title: "Alerta",
+                            text: data.message,
+                            icon: "error"
+                        });
+                    }
+                },
+                error: function () {
+                    swal.fire({
+                        title: "Error",
+                        text: "Error al cargar la lista de Equipos.",
+                        icon: "error"
+                    });
+                }
+            });
+        }
+    </script>
+}

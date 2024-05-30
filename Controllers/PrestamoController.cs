@@ -13,6 +13,11 @@ namespace GymAJT.Controllers
             return View();
         }
 
+        public IActionResult List()
+        {
+            return View();
+        }
+
         public JsonResult GetAlumnos()
         {
             try

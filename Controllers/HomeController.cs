@@ -20,7 +20,7 @@ namespace GymAJT.Controllers
             List<Usuarios> resultados = new List<Usuarios>();
 
             var userParam = new SqlParameter("@user", "Admin");
-            var passParam = new SqlParameter("@pass", "12345A");
+            var passParam = new SqlParameter("@pass", "12345");
 
             using (MiDbContext db = new MiDbContext())
             {
