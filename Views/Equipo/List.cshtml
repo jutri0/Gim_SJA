@@ -14,33 +14,19 @@
     <title>Mini Finance Dashboard Template</title>
 
     <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;300;600&display=swap" rel="stylesheet">
-
-    <link href="~/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="~/css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="~/css/apexcharts.css" rel="stylesheet">
-
     <link href="~/css/tooplate-mini-finance.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 
 <body>
     <div class="container-fluid">
-
-        <main class="col-md-12 col-lg-12 ">
+        <main class="col-md-12 col-lg-12">
             <div class="title-group mb-3">
                 <h1 class="h2 mb-0">Equipos</h1>
             </div>
 
             <div class="d-flex">
-
                 <a class="navbar-brand" href="@Url.Action("Index", "Equipo")">
                     Ingresar Nuevo Equipo
                 </a>
@@ -50,13 +36,13 @@
                 <div class="custom-block custom-block-exchange">
                     <h5 class="mb-4">Tabla de Equipos</h5>
 
-                    <table class="table table-bordered" id="prestamosTable">
+                    <table class="table table-bordered" id="equiposTable">
                         <thead>
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre del Equipo</th>
                                 <th>Cantidad</th>
-                                <th>Cantidad Maxima</th>
+                                <th>Cantidad Máxima</th>
                                 <th>Observaciones</th>
                                 <th>Foto del Equipo</th>
                             </tr>
@@ -66,12 +52,6 @@
                     </table>
                 </div>
             </div>
-
-            <!-- JAVASCRIPT FILES -->
-            <script src="js/jquery.min.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/apexcharts.min.js"></script>
-            <script src="js/custom.js"></script>
         </main>
     </div>
 
@@ -84,22 +64,22 @@
     <script>
         $(document).ready(function () {
             $.ajax({
-                url: '@Url.Action("GetPrestamos", "Home")',
+                url: '@Url.Action("GetEquipos", "Equipo")',
                 type: 'POST',
                 dataType: 'json',
                 data: {}, // Puedes enviar datos adicionales aquí si es necesario
                 success: function (data) {
-                    var tbody = $('#prestamosTable tbody');
+                    var tbody = $('#equiposTable tbody');
                     tbody.empty(); // Limpia cualquier fila existente
 
-                    $.each(data, function (index, prestamo) {
+                    $.each(data.dataJson, function (index, equipo) {
                         var row = '<tr>' +
-                            '<td>' + prestamo.idPrestamoPk + '</td>' +
-                            '<td>' + prestamo.alumnoPrestamo + '</td>' +
-                            '<td>' + prestamo.fechaPrestamo + '</td>' +
-                            '<td>' + prestamo.equipo + '</td>' +
-                            '<td>' + prestamo.cantidadEquipo + '</td>' +
-                            '<td>' + prestamo.observaciones + '</td>' +
+                            '<td>' + equipo.idEquipoPk + '</td>' +
+                            '<td>' + equipo.nombre + '</td>' +
+                            '<td>' + equipo.cantidad + '</td>' +
+                            '<td>' + equipo.cantidadMax + '</td>' +
+                            '<td>' + equipo.observaciones + '</td>' +
+                            '<td>' + equipo.fotoEquipo + '</td>' +
                             '</tr>';
                         tbody.append(row);
                     });

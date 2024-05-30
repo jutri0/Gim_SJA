@@ -1,25 +1,26 @@
 ﻿@{
 }
 
-        <label class="form-label">Alumno</label>
-        <select class="form-control" id="selectAlumnos">
-        </select>
-        <label class="form-label">Fecha</label>
-        <input class="form-control" type="date" name="profile-email" id="Fecha">
-        <label class="form-label">Equipo</label>
-        <select class="form-control" id="selectEquipos">
-        </select>
-        <label class="form-label">Cantidad</label>
-        <input class="form-control" type="text" name="profile-email" id="Cantidad" placeholder="Cantidad">
-        <label class="form-label">Observaciones</label>
-        <input class="form-control" type="text" name="profile-email" id="Observaciones" placeholder="Observaciones">
-        <br />
-        <div class="d-flex">
-            <button type="button" class="form-control ms-2" onclick="GuardarPrestamo()">
-                Guardar
-            </button>
-        </div>
-@section Scripts{
+<label class="form-label">Alumno</label>
+<select class="form-control" id="selectAlumnos">
+</select>
+<label class="form-label">Fecha</label>
+<input class="form-control" type="date" name="profile-email" id="Fecha">
+<label class="form-label">Equipo</label>
+<select class="form-control" id="selectEquipos">
+</select>
+<label class="form-label">Cantidad</label>
+<input class="form-control" type="text" name="profile-email" id="Cantidad" placeholder="Cantidad">
+<label class="form-label">Observaciones</label>
+<input class="form-control" type="text" name="profile-email" id="Observaciones" placeholder="Observaciones">
+<br />
+<div class="d-flex">
+    <button type="button" class="form-control ms-2" onclick="GuardarPrestamo()">
+        Guardar
+    </button>
+</div>
+
+@section Scripts {
     <script>
         $(document).ready(function () {
             try {
@@ -102,9 +103,12 @@
             var cantidad = $('#Cantidad').val();
             var observaciones = $('#Observaciones').val();
 
+            // Convertir la fecha a un formato legible
+            var fechaFormateada = new Date(fecha).toLocaleString();
+
             var data = {
                 AlumnoPrestamo: alumno,
-                FechaPrestamo: fecha,
+                FechaPrestamo: fechaFormateada,
                 Equipo: equipo,
                 CantidadEquipo: cantidad,
                 Observaciones: observaciones
