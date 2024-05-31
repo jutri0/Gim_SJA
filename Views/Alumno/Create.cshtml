@@ -1,0 +1,75 @@
+﻿@{
+}
+
+<label class="form-label">Codigo</label>
+<input class="form-control" type="text" name="profile-email" id="Codigo">
+
+<label class="form-label">Nombres</label>
+<input class="form-control" type="text" name="profile-email" id="Nombres">
+
+<label class="form-label">Curso</label>
+<input class="form-control" type="text" name="profile-email" id="Curso">
+
+<label class="form-label">Correo</label>
+<input class="form-control" type="text" name="profile-email" id="Correo">
+
+<label class="form-label">Correo Paternal</label>
+<input class="form-control" type="text" name="profile-email" id="CorreoPaternal">
+<br />
+<div class="d-flex">
+    <button type="button" class="form-control ms-2" onclick="GuardarAlumno()">
+        Guardar
+    </button>
+</div>
+
+@section Scripts{
+    <script>
+
+        function GuardarAlumno() {
+            var codigo = $('#Codigo').val();
+            var nombres = $('#Nombres').val();
+            var curso = $('#Curso').val();
+            var correo = $('#Correo').val();
+            var correoPaternal = $('#CorreoPaternal').val();
+
+            var data = {
+                Codigo: codigo,
+                Nombres: nombres,
+                Curso: curso,
+                Correo: correo,
+                CorreoPaternal: correoPaternal
+            };
+
+            $.ajax({
+                url: '@Url.Action("UpdateAlumno", "Alumno")',
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    if (data.message === "Se guardó con éxito") {
+                        swal.fire({
+                            title: "Success",
+                            text: data.message,
+                            icon: "success"
+                        });
+                    } else {
+                        swal.fire({
+                            title: "Alerta",
+                            text: data.message,
+                            icon: "error"
+                        });
+                    }
+                },
+                error: function () {
+                    swal.fire({
+                        title: "Error",
+                        text: "Error al cargar la lista de clientes.",
+                        icon: "error"
+                    });
+                }
+            });
+        }
+    </script>
+}

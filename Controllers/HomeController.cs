@@ -17,20 +17,6 @@ namespace GymAJT.Controllers
 
         public IActionResult Index()
         {
-            List<Usuarios> resultados = new List<Usuarios>();
-
-            var userParam = new SqlParameter("@user", "Admin");
-            var passParam = new SqlParameter("@pass", "12345");
-
-            using (MiDbContext db = new MiDbContext())
-            {
-                resultados = db.Set<Usuarios>().FromSqlRaw("EXEC LoginGym @user, @pass", userParam, passParam).ToList();
-                if (resultados.Count > 0)
-                {
-                    var pk = Convert.ToInt32(resultados[0].IdUsuarioPk);
-                    HttpContext.Session.SetInt32("idUsuario", pk);
-                }
-            }
                 return View();
         }
 

@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+
+    <main class="col-md-12 col-lg-12 ">
+        <div class="title-group mb-3">
+            <h1 class="h2 mb-0">Devoluciones</h1>
+        </div>
+
+        <div class="d-flex">
+
+            <a class="navbar-brand" href="@Url.Action("Create", "Alumno")">
+                Ingresar Nueva Devolucion
+            </a>
+        </div>
+
+        <div class="row my-4">
+            <div class="custom-block custom-block-exchange">
+                <h5 class="mb-4">Tabla de Devoluciones</h5>
+
+                <table class="table table-bordered" id="alumnosTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Alumno Devolucion</th>
+                            <th>Prestamo</th>
+                            <th>FechaDevolucion</th>
+                            <th>Equipo</th>
+                            <th>Observaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: '@Url.Action("GetAlumnos", "Alumno")',
+                type: 'POST',
+                dataType: 'json',
+                data: {}, // Puedes enviar datos adicionales aquí si es necesario
+                success: function (data) {
+                    var tbody = $('#alumnosTable tbody');
+                    tbody.empty(); // Limpia cualquier fila existente
+
+                    $.each(data, function (index, alumno) {
+                        var row = '<tr>' +
+                            '<td>' + alumno.idAlumnoPk + '</td>' +
+                            '<td>' + alumno.codigo + '</td>' +
+                            '<td>' + alumno.nombres + '</td>' +
+                            '<td>' + alumno.curso + '</td>' +
+                            '<td>' + alumno.correo + '</td>' +
+                            '<td>' + alumno.correoPaternal + '</td>' +
+                            '</tr>';
+                        tbody.append(row);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error al obtener los datos: ", error);
+                }
+            });
+        });
+    </script>
+}

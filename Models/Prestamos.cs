@@ -8,5 +8,6 @@
         public string? Equipo { get; set; }
         public int? CantidadEquipo { get; set; }
         public string? Observaciones { get; set; }
+        public string? EstadoDevolucion { get; set; }
     }
 }

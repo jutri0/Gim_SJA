@@ -13,36 +13,30 @@ namespace GymAJT.Controllers
             return View();
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public JsonResult GetAlumnos()
+        {
+            var prestamos = new List<Alumnos>();
+
+            using (MiDbContext db = new MiDbContext())
+            {
+                prestamos = db.Set<Alumnos>().FromSqlRaw("EXEC getAlumnos").ToList();
+            }
+
+            return Json(prestamos);
+        }
+
         public IActionResult List()
         {
             return View();
         }
 
-        public JsonResult GetAlumnos()
-        {
-            try
-            {
-                var alumnos = new List<Alumnos>();
-                using (MiDbContext db = new MiDbContext())
-                {
-                    alumnos = db.Set<Alumnos>().FromSqlRaw("EXEC getAlumnosSelect").ToList();
-                }
-
-                if (alumnos.Any())
-                {
-                    var dataJson = alumnos;
-                    return Json(new { dataJson, message = "Alumnos encontrados" });
-                }
-                else
-                {
-                    return Json(new { message = "No se encontraron Alumnos." });
-                }
-            }
-            catch (Exception ex)
-            {
-                return Json(new { error = ex.Message });
-            }
-        }
+        
 
         [HttpPost]
         public JsonResult UpdateAlumno([FromBody] Alumnos alumno)
@@ -66,5 +60,7 @@ namespace GymAJT.Controllers
                 return Json(new { error = ex.Message });
             }
         }
+
+
     }
 }

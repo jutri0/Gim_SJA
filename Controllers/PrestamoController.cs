@@ -96,6 +96,26 @@ namespace GymAJT.Controllers
                 return Json(new { error = ex.Message });
             }
         }
+
+        [HttpPost]
+        public JsonResult devolverPrestamos(int Id)
+        {
+            try
+            {
+                using (MiDbContext db = new MiDbContext())
+                {
+                    db.Database.ExecuteSqlRaw("EXEC devolverPrestamo @Id",
+                                new SqlParameter("@Id", Id));  // Cambié "@alumno" a "@Id"
+                }
+
+                return Json(new { message = "Se guardó con éxito" });
+            }
+            catch (Exception ex)
+            {
+                // Maneja la excepción, registra información de depuración o devuelve un mensaje de error controlado.
+                return Json(new { error = ex.Message });
+            }
+        }
     }
     
 }

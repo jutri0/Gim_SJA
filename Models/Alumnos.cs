@@ -2,7 +2,7 @@
 {
     public class Alumnos
     {
-        public decimal IdAlumnoPk { get; set; }
+        public int IdAlumnoPk { get; set; }
         public int? Codigo { get; set; }
         public string? Nombres { get; set; }
         public string? Curso { get; set; }
