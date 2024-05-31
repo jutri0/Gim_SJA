@@ -50,13 +50,13 @@
                 <div class="custom-block custom-block-exchange">
                     <h5 class="mb-4">Tabla de Equipos</h5>
 
-                    <table class="table table-bordered" id="prestamosTable">
+                    <table class="table table-bordered" id="equiposTable">
                         <thead>
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre del Equipo</th>
                                 <th>Cantidad</th>
-                                <th>Cantidad Maxima</th>
+                                <th>Cantidad Máxima</th>
                                 <th>Observaciones</th>
                                 <th>Foto del Equipo</th>
                             </tr>
@@ -68,44 +68,50 @@
             </div>
 
             <!-- JAVASCRIPT FILES -->
-            <script src="js/jquery.min.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/apexcharts.min.js"></script>
-            <script src="js/custom.js"></script>
+            <script src="~/js/jquery.min.js"></script>
+            <script src="~/js/bootstrap.bundle.min.js"></script>
+            <script src="~/js/apexcharts.min.js"></script>
+            <script src="~/js/custom.js"></script>
         </main>
     </div>
 
     <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/apexcharts.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/apexcharts.min.js"></script>
+    <script src="~/js/custom.js"></script>
 
     <script>
         $(document).ready(function () {
             $.ajax({
-                url: '@Url.Action("GetPrestamos", "Home")',
-                type: 'POST',
+                url: '@Url.Action("GetEquipos", "Equipo")',
+                type: 'GET',
                 dataType: 'json',
-                data: {}, // Puedes enviar datos adicionales aquí si es necesario
-                success: function (data) {
-                    var tbody = $('#prestamosTable tbody');
+                success: function (response) {
+                    var tbody = $('#equiposTable tbody');
                     tbody.empty(); // Limpia cualquier fila existente
 
-                    $.each(data, function (index, prestamo) {
-                        var row = '<tr>' +
-                            '<td>' + prestamo.idPrestamoPk + '</td>' +
-                            '<td>' + prestamo.alumnoPrestamo + '</td>' +
-                            '<td>' + prestamo.fechaPrestamo + '</td>' +
-                            '<td>' + prestamo.equipo + '</td>' +
-                            '<td>' + prestamo.cantidadEquipo + '</td>' +
-                            '<td>' + prestamo.observaciones + '</td>' +
-                            '</tr>';
+                    if (response.dataJson && response.dataJson.length > 0) {
+                        $.each(response.dataJson, function (index, equipo) {
+                            var row = '<tr>' +
+                                '<td>' + equipo.idEquipoPk + '</td>' +
+                                '<td>' + equipo.nombre + '</td>' +
+                                '<td>' + equipo.cantidad + '</td>' +
+                                '<td>' + equipo.cantidadMax + '</td>' +
+                                '<td>' + equipo.observaciones + '</td>' +
+                                '<td>' + (equipo.fotoEquipo ? '<img src="data:image/png;base64,' + equipo.fotoEquipo + '" alt="Foto" style="width: 50px; height: 50px;"/>' : 'No disponible') + '</td>' +
+                                '</tr>';
+                            tbody.append(row);
+                        });
+                    } else {
+                        var row = '<tr><td colspan="6">No se encontraron Equipos.</td></tr>';
                         tbody.append(row);
-                    });
+                    }
                 },
                 error: function (xhr, status, error) {
                     console.error("Error al obtener los datos: ", error);
+                    var row = '<tr><td colspan="6">Error al obtener los datos.</td></tr>';
+                    $('#equiposTable tbody').append(row);
                 }
             });
         });

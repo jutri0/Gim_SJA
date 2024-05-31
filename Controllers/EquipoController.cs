@@ -23,7 +23,7 @@ namespace GymAJT.Controllers
                 var equipos = new List<Equipos>();
                 using (MiDbContext db = new MiDbContext())
                 {
-                    equipos = db.Set<Equipos>().FromSqlRaw("EXEC getEquiposSelect").ToList();
+                    equipos = db.Set<Equipos>().FromSqlRaw("EXEC getEquipos").ToList();
                 }
 
                 if (equipos.Any())
@@ -43,19 +43,10 @@ namespace GymAJT.Controllers
         }
 
         [HttpPost]
-        public JsonResult UpdateEquipo([FromForm] Equipos equipo, IFormFile? foto)
+        public JsonResult UpdateEquipo([FromBody] Equipos equipo)
         {
             try
             {
-                byte[]? fotoBytes = null;
-                if (foto != null)
-                {
-                    using (var ms = new MemoryStream())
-                    {
-                        foto.CopyTo(ms);
-                        fotoBytes = ms.ToArray();
-                    }
-                }
 
                 using (MiDbContext db = new MiDbContext())
                 {

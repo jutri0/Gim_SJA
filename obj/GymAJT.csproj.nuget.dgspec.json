@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "L:\\Nueva carpeta\\Gym\\Gym_SJA\\GymAJT.csproj": {}
+    "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymAJT.csproj": {}
   },
   "projects": {
-    "L:\\Nueva carpeta\\Gym\\Gym_SJA\\GymAJT.csproj": {
+    "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymAJT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Nueva carpeta\\Gym\\Gym_SJA\\GymAJT.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymAJT.csproj",
         "projectName": "GymAJT",
-        "projectPath": "L:\\Nueva carpeta\\Gym\\Gym_SJA\\GymAJT.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "L:\\Nueva carpeta\\Gym\\Gym_SJA\\obj\\",
+        "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymAJT.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

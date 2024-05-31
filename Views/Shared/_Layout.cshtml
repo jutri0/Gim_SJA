@@ -73,11 +73,11 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link" href="@Url.Action("Index","Devoluciones")">
                                 Devoluciones
                             </a>
-                        </li>
+                        </li> *@
 
                         <li class="nav-item">
                             <a class="nav-link" href="@Url.Action("List","Equipo")">
@@ -91,14 +91,14 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link" href="@Url.Action("Index","Usuarios")">
                                 Usuarios
                             </a>
-                        </li>
+                        </li> *@
 
                         <li class="nav-item border-top mt-auto pt-2">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="@Url.Action("Index","Login")">
                                 Cerrar Sesion
                             </a>
                         </li>
@@ -120,7 +120,7 @@
     </div>>
  
 
-   
+    <script src="~/js/sweetalert.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/Bootstrap4.js"></script>

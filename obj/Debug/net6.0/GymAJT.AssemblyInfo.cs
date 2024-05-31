@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymAJT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3ba59020adde026ab3ab03b7f908734ac171e3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymAJT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymAJT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

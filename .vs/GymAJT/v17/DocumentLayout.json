@@ -1,114 +1,134 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\",
+  "WorkspaceRootPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\equipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\equipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\equipo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\equipo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\prestamo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\prestamo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\controllers\\devolucioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\controllers\\devolucioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\devolucioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\filters\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:filters\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\viewmodelsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\viewmodelsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\viewmodelequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\viewmodelequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\viewmodelalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\viewmodelalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\viewmodelalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\alumno\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\alumno\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\devoluciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\devoluciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\equipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\equipo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\equipo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\equipo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\gymsja.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:gymsja.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\prestamo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\prestamo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\filters\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:filters\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\viewmodelsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\viewmodelsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\viewmodelequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\viewmodelequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gim_sja\\models\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\models\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:models\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|c:\\users\\julia\\onedrive\\escritorio\\gimnasio\\gim_sja\\gymsja.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{867EB590-1AE5-4907-AFED-897540199580}|GymAJT.csproj|solutionrelative:gymsja.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,19 +138,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "Views\\Alumno\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:37:22.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Devoluciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Devoluciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Devoluciones\\Index.cshtml",
+              "RelativeToolTip": "Views\\Devoluciones\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:37:18.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GymSJA.sql ",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymSJA.sql",
+              "RelativeDocumentMoniker": "GymSJA.sql",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\GymSJA.sql",
+              "RelativeToolTip": "GymSJA.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-31T03:00:37.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Alumno\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alumno\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Alumno\\Create.cshtml",
+              "RelativeToolTip": "Views\\Alumno\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T02:51:48.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DevolucionController.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\DevolucionController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\DevolucionController.cs",
               "RelativeDocumentMoniker": "Controllers\\DevolucionController.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\DevolucionController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\DevolucionController.cs",
               "RelativeToolTip": "Controllers\\DevolucionController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,13 +206,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Equipo\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Equipo\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Equipo\\List.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Equipo\\List.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Equipo\\List.cshtml",
               "RelativeToolTip": "Views\\Equipo\\List.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABgAAAA8AAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwHcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-30T18:11:38.334Z",
               "EditorCaption": ""
@@ -154,48 +221,47 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EquipoController.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\EquipoController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\EquipoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EquipoController.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\EquipoController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\EquipoController.cs",
               "RelativeToolTip": "Controllers\\EquipoController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwE0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T18:13:26.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCwAAAAQAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAnwB4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T03:01:01.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T03:27:39.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T03:27:39.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Prestamo\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Prestamo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Prestamo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Prestamo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Prestamo\\Index.cshtml",
               "RelativeToolTip": "Views\\Prestamo\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -204,13 +270,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Equipo\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Equipo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Equipo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Equipo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Equipo\\Index.cshtml",
               "RelativeToolTip": "Views\\Equipo\\Index.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBQAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-30T17:28:28.374Z",
               "EditorCaption": ""
@@ -219,35 +285,35 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEIAAABYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-30T03:01:01.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "AlumnoController.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlumnoController.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\AlumnoController.cs",
               "RelativeToolTip": "Controllers\\AlumnoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAnwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T18:34:52.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "favicon.ico -  [Espa\u00F1ol (M\u00E9xico)] - Icon [32x32, 32 bits, BMP]",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\favicon.ico",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\favicon.ico -  [Espa\u00F1ol (M\u00E9xico)] - Icon [32x32, 32 bits, BMP]",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\favicon.ico -  [Espa\u00F1ol (M\u00E9xico)] - Icon [32x32, 32 bits, BMP]",
               "RelativeToolTip": "wwwroot\\favicon.ico -  [Espa\u00F1ol (M\u00E9xico)] - Icon [32x32, 32 bits, BMP]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
               "WhenOpened": "2024-05-30T18:35:58.462Z",
@@ -255,24 +321,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PrestamoController.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\PrestamoController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\PrestamoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PrestamoController.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Controllers\\PrestamoController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Controllers\\PrestamoController.cs",
               "RelativeToolTip": "Controllers\\PrestamoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAnwGUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T03:01:01.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Equipos.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Equipos.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Equipos.cs",
               "RelativeDocumentMoniker": "Models\\Equipos.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Equipos.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Equipos.cs",
               "RelativeToolTip": "Models\\Equipos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,37 +347,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Login\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-30T03:01:01.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T17:36:24.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T17:36:24.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -320,23 +385,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "Prestamos.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Prestamos.cs",
               "RelativeDocumentMoniker": "Models\\Prestamos.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Prestamos.cs",
               "RelativeToolTip": "Models\\Prestamos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T03:01:01.672Z"
+              "WhenOpened": "2024-05-30T03:01:01.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Seguridad.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Filters\\Seguridad.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Filters\\Seguridad.cs",
               "RelativeDocumentMoniker": "Filters\\Seguridad.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Filters\\Seguridad.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Filters\\Seguridad.cs",
               "RelativeToolTip": "Filters\\Seguridad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,37 +410,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "bootstrap-icons.css",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\bootstrap-icons.css",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\bootstrap-icons.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap-icons.css",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\bootstrap-icons.css",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\bootstrap-icons.css",
               "RelativeToolTip": "wwwroot\\css\\bootstrap-icons.css",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-30T17:28:00.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T17:28:00.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-30T17:28:05.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T17:28:05.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\login.css",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\css\\login.css",
               "RelativeToolTip": "wwwroot\\css\\login.css",
               "ViewState": "AQIAAMQAAAAAAAAAAAAiwDMBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -382,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "jquery.js",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
               "ViewState": "AQIAACsRAAAAAAAAAAAAACsRAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -394,23 +458,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 3,
               "Title": "ViewModelAlumno.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelAlumno.cs",
               "RelativeDocumentMoniker": "Models\\ViewModelAlumno.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelAlumno.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelAlumno.cs",
               "RelativeToolTip": "Models\\ViewModelAlumno.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T03:01:01.653Z"
+              "WhenOpened": "2024-05-30T03:01:01.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "ViewModelEquipo.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelEquipo.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelEquipo.cs",
               "RelativeDocumentMoniker": "Models\\ViewModelEquipo.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelEquipo.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelEquipo.cs",
               "RelativeToolTip": "Models\\ViewModelEquipo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -418,11 +483,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "MiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\MiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\MiDbContext.cs",
               "RelativeDocumentMoniker": "Models\\MiDbContext.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\MiDbContext.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\MiDbContext.cs",
               "RelativeToolTip": "Models\\MiDbContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -430,11 +495,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ViewModelSql.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelSql.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelSql.cs",
               "RelativeDocumentMoniker": "Models\\ViewModelSql.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\ViewModelSql.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\ViewModelSql.cs",
               "RelativeToolTip": "Models\\ViewModelSql.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -442,11 +507,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Alumnos.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Alumnos.cs",
               "RelativeDocumentMoniker": "Models\\Alumnos.cs",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\Models\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\Models\\Alumnos.cs",
               "RelativeToolTip": "Models\\Alumnos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -454,11 +519,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gim_SJA\\appsettings.json",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Escritorio\\Gimnasio\\Gim_SJA\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

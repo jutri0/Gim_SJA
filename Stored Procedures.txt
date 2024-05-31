@@ -1,0 +1,391 @@
+
+En el Stored Procedures de SQL Server ejecute estos comando en el orden presentado.
+
+#StoredProcedures_1
+
+USE [GymSJA]
+GO
+
+/** Object:  StoredProcedure [dbo].[LoginGym]    Script Date: 29/5/2024 22:18:25 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[LoginGym] 
+    @user varchar(max),
+    @pass varchar(max)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    Declare @Count int, @Ing int;
+
+    Set @Count =(Select Count(*)from Usuarios where usuario = @user and password =@pass and Estado =1)
+
+    if (@Count =1 )
+        begin
+        Select IdUsuarioPk,
+        Usuario,
+        Estado
+        from Usuarios where usuario = @user and password =@pass and Estado =1
+        end
+     else
+        begin
+        select  0
+        end
+
+
+END
+GO
+
+#StoredProcedures_2
+
+USE [GymSJA]
+GO
+
+/** Object:  StoredProcedure [dbo].[getAlumnosSelect]    Script Date: 29/5/2024 22:21:28 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+Create PROCEDURE [dbo].[getAlumnosSelect] 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Select IdAlumnoPk,
+        Nombres
+        from Alumnos 
+    END
+GO
+
+#StoredProcedures_3
+
+USE [GymSJA]
+GO
+
+/** Object:  StoredProcedure [dbo].[getEquiposSelect]    Script Date: 29/5/2024 22:21:43 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+Create PROCEDURE [dbo].[getEquiposSelect] 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Select IdEquipoPk,
+        Nombre
+        from Equipos 
+    END
+GO
+
+#StoredProcedures_4
+
+USE [GymSJA]
+GO
+
+/** Object:  StoredProcedure [dbo].[getPrestamos]    Script Date: 29/5/2024 22:22:02 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+Create PROCEDURE [dbo].[getPrestamos] 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Select P.IdPrestamoPk,
+        A.Nombres AlumnoPrestamo,
+        P.FechaPrestamo FechaPrestamo,
+        E.Nombre Equipo,
+        P.CantidadEquipo CantidadEquipo,
+        p.Observaciones 
+        from Prestamos P
+        inner join Alumnos A on A.IdAlumnoPk = P.AlumnoPrestamo
+        inner join Equipos E on E.IdEquipoPk = P.Equipo
+    END
+GO
+
+#StoredProcedures_5
+
+USE [GymSJA]
+GO
+
+/** Object:  StoredProcedure [dbo].[insertPrestamo]    Script Date: 29/5/2024 22:22:10 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[insertPrestamo] 
+@alumno int,
+@fecha DateTime,
+@equipo int,
+@cantidad int,
+@observaciones varchar(max)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Begin try
+        Insert into Prestamos(AlumnoPrestamo,FechaPrestamo,Equipo,CantidadEquipo,Observaciones, EstadoDevolucion)
+        Values(@alumno,@fecha,@equipo,@cantidad,@observaciones,1)
+
+        Select 0 AS Id
+        end try
+        begin catch
+        Select 1 AS Id
+        end catch
+    END
+
+GO
+
+#StoredProcedure_6
+
+USE [GymSJA]
+GO
+/****** Object:  StoredProcedure [dbo].[getEquipos]    Script Date: 30/05/2024 6:03:25 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[getEquipos] 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Select E.IdEquipoPk,
+        E.Nombre,
+        E.Cantidad,
+        E.CantidadMax,
+        E.Observaciones,
+        E.FotoEquipo 
+        from Equipos E
+    END
+GO
+
+#StoredProcedure_7
+
+USE [GymSJA]
+GO
+/****** Object:  StoredProcedure [dbo].[insertEquipo]    Script Date: 30/05/2024 6:08:17 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[insertEquipo] 
+@nombre varchar(max),
+@cantidad int,
+@cantidadMax int,
+@observaciones varchar(max),
+@fotoEquipo varchar(max)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Begin try
+        Insert into Equipos(Nombre,Cantidad,CantidadMax,Observaciones, FotoEquipo)
+        Values(@nombre,@cantidad,@cantidadMax,@observaciones,@fotoEquipo)
+
+        Select 0 AS Id
+        end try
+        begin catch
+        Select 1 AS Id
+        end catch
+    END
+GO
+
+#StoredProcedure_8
+
+USE [GymSJA]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[getDevoluciones]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT D.IdDevolucionPk,
+           A.Nombres AS AlumnoDevolucion,
+           P.IdPrestamoPk AS Prestamo,
+           D.FechaDevolucion,
+           E.Nombre AS Equipo,
+           D.Observaciones
+    FROM Devoluciones D
+    INNER JOIN Prestamos P ON P.IdPrestamoPk = D.Prestamo
+    INNER JOIN Alumnos A ON A.IdAlumnoPk = D.AlumnoDevolucion
+    INNER JOIN Equipos E ON E.IdEquipoPk = D.Equipo;
+END
+GO
+
+#StoredProcedure_9
+
+US
+
+CREATE PROCEDURE [dbo].[insertDevolucion]
+    @AlumnoDevolucion VARCHAR(MAX),
+    @Prestamo INT,E [GymSJA]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+    @FechaDevolucion DATETIME,
+    @Equipo INT,
+    @Observaciones VARCHAR(MAX)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Devoluciones (AlumnoDevolucion, Prestamo, FechaDevolucion, Equipo, Observaciones)
+    VALUES (@AlumnoDevolucion, @Prestamo, @FechaDevolucion, @Equipo, @Observaciones);
+    
+    SELECT SCOPE_IDENTITY() AS IdDevolucionPk; -- Return the ID of the newly inserted record
+END
+GO
+
+#StoredProcedure_10
+
+
+
+#StoredProcedure_11
+
+USE [GymSJA]
+GO
+/** Object:  StoredProcedure [dbo].[getAlumnos]    Script Date: 30/5/2024 21:13:23 **/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[getAlumnos] 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Select A.IdAlumnoPk,
+        A.Codigo,
+        A.Nombres,
+        A.Curso Curso,
+        A.Correo Correo,
+        A.CorreoPaternal
+        from Alumnos A
+    END
+
+#Sp_12
+USE [GymSJA]
+GO
+/** Object:  StoredProcedure [dbo].[devolverPrestamo]    Script Date: 30/5/2024 21:13:35 **/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[devolverPrestamo]
+@Id int
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        update Prestamos set EstadoDevolucion = 0 where IdPrestamoPk=@Id
+    END
+
+#SP_13
+
+USE [GymSJA]
+GO
+/** Object:  StoredProcedure [dbo].[insertAlumno]    Script Date: 30/5/2024 21:13:06 **/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:        <Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:    <Description,,>
+-- =============================================
+Create PROCEDURE [dbo].[insertAlumno] 
+@codigo int,
+@nombres varchar(max),
+@curso varchar(max),
+@correo varchar(max),
+@correoPaternal varchar(max)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+        Begin try
+        Insert into Alumnos(Codigo,Nombres,Curso,Correo,CorreoPaternal)
+        Values(@codigo,@nombres,@curso,@correo,@correoPaternal)
+
+        Select 0 AS Id
+        end try
+        begin catch
+        Select 1 AS Id
+        end catch
+    END
+
+
